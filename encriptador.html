@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 data-shadow='Encriptador!!'>Encripta</h1>
+    <div class="container">
+        <div class="left-column">
+            <div class="box">
+                <h3 for="text">Texto:</h3>
+                <br>
+                <textarea id="text" rows="4" cols="50" placeholder="Ingrese el texto aqui"></textarea>
+                <br>
+                <button onclick="encryptText()">Encriptar</button>
+                <button onclick="decryptText()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="box">
+                <h2>No hay datos...</h2>
+                <div id="result">
+                    <img class="img2" src="https://i.pinimg.com/originals/3e/2b/05/3e2b05fdcb614e0f08dbe6f51e9d1419.png"
+                        alt="Imagen">
+                    <p id="output"></p>
+                    <button id="copyButton" onclick="copyToClipboard()">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="encriptador.js"></script>
+</body>
+<br>
+<br>
+<footer>
+    <p>Desarrollado por [Jorge Andrés Poveda Guerrero]</p>
+    <p>Email: [andrespoveda.100@gmail.com]</p>
+    <p>© 2023</p>
+</footer>
+
+</html>
